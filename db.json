@@ -1,31 +1,95 @@
 {
-  "posts": [
+  "contact": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "Carolyn Hawkins",
+      "nickname": "Carolyn",
+      "email": "carolyn.hawkins@gmail.com",
+      "phone": "0342232422"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "Colin Fields",
+      "nickname": "Colin",
+      "email": "colin.fields@ymail.com",
+      "phone": "0552934411"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "name": "Drake Harmon",
+      "nickname": "Drake",
+      "email": "drake.harmon@yahoo.com",
+      "phone": "0772741488"
     }
   ],
-  "comments": [
+  "pets": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nume": "Dante",
+      "owner_id": 1,
+      "gender": "M"
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "nume": "Max",
+      "owner_id": 1,
+      "gender": "M"
+    },
+    {
+      "id": 3,
+      "nume": "Lara",
+      "owner_id": 2,
+      "gender": "F"
+    },
+    {
+      "id": 4,
+      "nume": "Rogue",
+      "owner_id": 1,
+      "gender": "F"
+    },
+    {
+      "id": 5,
+      "nume": "Rocket",
+      "owner_id": 3,
+      "gender": "M"
+    },
+    {
+      "id": 6,
+      "nume": "Poppy",
+      "owner_id": 2,
+      "gender": "F"
+    },
+    {
+      "id": 7,
+      "nume": "Emperor",
+      "owner_id": 3,
+      "gender": "M"
+    },
+    {
+      "id": 8,
+      "nume": "Ella",
+      "owner_id": 3,
+      "gender": "F"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "appointments": [
+    {
+      "contact_id": 1,
+      "pet_id": 1,
+      "date": "5 Feb, 2020",
+      "time": "03:00 PM"
+    },
+    {
+      "contact_id": 2,
+      "pet_id": 6,
+      "date": "5 Feb, 2020",
+      "time": "03:00 PM"
+    },
+    {
+      "contact_id": 3,
+      "pet_id": 8,
+      "date": "5 Feb, 2020",
+      "time": "03:00 PM"
+    }
+  ]
 }
